@@ -1,0 +1,61 @@
+/* CSS */
+nav {
+    display: flex;
+    justify-content: space-between; /* Distribute items to both start and end */
+    align-items: center; /* Center the content vertically */
+    background-color: black;
+    padding: 0 20px;
+  }
+  
+  .nav-logo img {
+    width: 80px;
+    /* Remove 'float: left' as it interferes with flexbox */
+    /* float: left; */
+    margin-right: 20px; /* Move the logo to the start with some margin */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0; /* Remove default margin for better alignment */
+  }
+  
+  nav ul li {
+    padding: 8px 15px;
+    border-radius: 15px;
+    transform: all 0.3s ease-in-out;
+    margin-right: 10px; /* Add some space between the links */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  nav ul li:hover {
+    background-color: #d6d1c4;
+    color: #0c0b0b;
+    padding: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-logo img {
+      margin-right: 0;
+      margin-bottom: 10px; /* Add some space between logo and links in mobile view */
+    }
+  
+    nav ul {
+      margin-top: 10px; /* Add some space between logo and links in mobile view */
+    }
+  
+    nav ul li {
+      margin-right: 0; /* Remove the margin between links in mobile view */
+    }
+  }
+  

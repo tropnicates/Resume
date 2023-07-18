@@ -1,0 +1,123 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .header-content {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .header-content h1 {
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #beb6cb;
+  }
+  
+  .fullname {
+    font-size: 3rem;
+    margin-top: 10px;
+    color: #70667f;
+  }
+  
+  .header-payment-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Change to flex-start */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    width: 90%;
+    flex-wrap: wrap; /* Add flex-wrap */
+  }
+  
+  .btn,
+  .fa-paypal,
+  .fa-cc-visa,
+  .fa-cc-amex {
+    color: #0078D2;
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  .btn{
+    background-color: #1abc9c;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    width: auto;
+  }
+ 
+  
+  .fa-cc-mastercard {
+    color: #FFA500; /* Orange color */
+    font-size: 2rem;
+    margin-right: 20px;
+    background-color: white;
+  }
+  
+  
+  .profile-img-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .profile-img-container img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid #fcd212;
+    border-left: 10px solid #003087;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .circle-1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    margin: 10px;
+    left: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+  
+  .circle-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: 10px;
+    top: 10px;
+    box-shadow: 0 4px 30px rgba(218, 210, 210, 0.1);
+    border-radius: 16px;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-img-container {
+      align-items: center;
+    }
+  
+    .header-payment-container {
+      justify-content: center; /* Change to center */
+    }
+  }
+  
