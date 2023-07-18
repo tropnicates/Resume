@@ -5,9 +5,16 @@ import './navbar.css';
 const Navbar = () => {
   const handleLinkClick = (event, targetId) => {
     event.preventDefault();
-    const targetSection = document.getElementById(targetId);
-    if (targetSection) {
-      targetSection.scrollIntoView({ behavior: 'smooth' });
+    if (targetId === 'about-section') {
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) {
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      const targetSection = document.getElementById(targetId);
+      if (targetSection) {
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
@@ -28,7 +35,7 @@ const Navbar = () => {
             <a href="#project-section" onClick={(event) => handleLinkClick(event, 'project-section')}>Projects</a>
           </li>
           <li>
-            <a href="/profile-pic">About</a>
+            <a href="#about-section" onClick={(event) => handleLinkClick(event, 'about-section')}>About</a>
           </li>
           <li>
             <a href="https://drive.google.com/file/d/1V6-ZQRjT0GEzw2VA5pgYMWLQNLcUXovD/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>

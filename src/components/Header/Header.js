@@ -4,8 +4,6 @@ import profileImg from "../../assets/profileImg1.jpg";
 import "./Header.css";
 
 const Header = () => {
-  // ... previous code ...
-
   const hireAction = () => {
     alert("Want to Hire Me? Contact Please!");
   };

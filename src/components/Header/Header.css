@@ -46,7 +46,7 @@
   .fa-cc-amex {
     color: #0078D2;
     font-size: 2rem;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   .btn{
     background-color: #1abc9c;
@@ -60,7 +60,7 @@
   .fa-cc-mastercard {
     color: #FFA500; /* Orange color */
     font-size: 2rem;
-    margin-right: 20px;
+    margin-right: 10px;
     background-color: white;
   }
   

@@ -24,7 +24,7 @@ nav {
     padding: 8px 15px;
     border-radius: 15px;
     transform: all 0.3s ease-in-out;
-    margin-right: 10px; /* Add some space between the links */
+    margin-right: 5px; /* Add some space between the links */
   }
   
   nav ul li a {
