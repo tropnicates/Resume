@@ -15,6 +15,7 @@ const Project = ({ name, description }) => {
         the making this project. so yah it was a quite good experience
         throughout the journey. so I thank the people who made availabe
         the data open source.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nobis esse amet numquam nesciunt cupiditate minus optio ex natus incidunt accusantium voluptate atque vel dignissimos harum magnam autem, officia quos, eligendi enim suscipit est a odit. Ea maiores dolore tempore, velit ad iusto quod sint pariatur, sunt, earum accusamus alias?
       </p>
     </div>
   );

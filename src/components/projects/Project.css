@@ -12,6 +12,7 @@ body {
 .project {
   color: white;
   padding: 20px;
+  margin-bottom: 10px; /* Set margin-bottom to 10px */
 }
 
 .project > h1 {
@@ -20,33 +21,33 @@ body {
 }
 
 .project > .content {
-  display: flex;
-  align-items: center; /* Center items vertically */
+  display: grid; /* Use grid layout */
+  grid-template-columns: 50% 50%; /* Divide the width equally */
+  align-items: stretch; /* Stretch items to match the height of the parent container */
 }
 
 .project > #image {
-  width: 50%;
-  min-width: 200px;
-  max-height: 500px;
-  border-radius: 5px;
+  max-width: 100%;
+  max-height: 1000px;
   object-fit: cover;
-  float: right;
+  border-radius: 50%;
 }
 
 .project > .para {
-  width: 50%;
-  min-height: 500px;
-  object-fit: cover;
   font-size: 1.2rem;
   line-height: 1.9;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #beb6cb;
 }
 
+/* Add margin-bottom to .glitzx class */
+.glitzx {
+  margin-bottom: 20px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .project > #image,
-  .project > .para {
-    width: 100%;
+  .project > .content {
+    grid-template-columns: 100%; /* Make them stack vertically in mobile view */
   }
 }
