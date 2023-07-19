@@ -28,6 +28,11 @@ const Header = () => {
             wrapper="b"
           />
         </h2>
+        <div className="profile-img-container">
+          <img src={profileImg} alt="Profile" />
+          <div className="circle-1"></div>
+          <div className="circle-2"></div>
+        </div>
         <p id="about-section" className="profile-pic">
           Myself Kundan Kumar, I belong to Nalanda, Bihar. I have done my
           schooling from Bihar. Currently, I am doing my bachelors in
@@ -74,11 +79,6 @@ const Header = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="profile-img-container">
-        <img src={profileImg} alt="Profile" />
-        <div className="circle-1"></div>
-        <div className="circle-2"></div>
       </div>
     </div>
   );

@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import logo from '../../assets/logo.png'; // Adjust the path according to the actual location
 import './navbar.css';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const menuRef = useRef();
 
   const handleLinkClick = (event, targetId) => {
     const targetSection = document.getElementById(targetId);
@@ -20,19 +21,38 @@ const Navbar = () => {
     setShowMenu((prevState) => !prevState);
   };
 
+  const handleOutsideClick = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setShowMenu(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('click', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+    };
+  }, []);
+
+  const handleMenuButtonClick = (event) => {
+    event.stopPropagation();
+    toggleMenu();
+  };
+
   return (
     <nav>
       <div className='nav-logo'>
         <img src={logo} alt='logo' />
       </div>
 
-      <button className={`menu-toggle ${showMenu ? 'active' : ''}`} onClick={toggleMenu}>
+      <button className={`menu-toggle ${showMenu ? 'active' : ''}`} onClick={handleMenuButtonClick}>
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-      <div className={`nav-links ${showMenu ? 'active' : ''}`}>
+      <div ref={menuRef} className={`nav-links ${showMenu ? 'active' : ''}`}>
         <ul>
           <li>
             <a href="/">Home</a>
