@@ -113,11 +113,6 @@ a:hover {
     display: block;
   }
 
-  /* Hide the button icon when the menu is active */
-  .menu-toggle.active span {
-    display: none;
-  }
-
   /* Set the cursor to pointer for links in mobile view */
   .nav-links.active a {
     cursor: pointer;
