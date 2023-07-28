@@ -1,3 +1,4 @@
+// Header.js
 import React from "react";
 import Typical from "react-typical";
 import profileImg from "../../assets/profileImg1.jpg";
@@ -28,11 +29,6 @@ const Header = () => {
             wrapper="b"
           />
         </h2>
-        <div className="profile-img-container">
-          <img src={profileImg} alt="Profile" />
-          <div className="circle-1"></div>
-          <div className="circle-2"></div>
-        </div>
         <p id="about-section" className="profile-pic">
           Myself Kundan Kumar, I belong to Nalanda, Bihar. I have done my
           schooling from Bihar. Currently, I am doing my bachelors in
@@ -40,7 +36,6 @@ const Header = () => {
           looking for an internship as well as a full-time position in the domain of the
           software development field.
         </p>
-
         <div className="header-payment-container">
           <div className="payment-icons">
             <button className="btn" onClick={hireAction}>
@@ -79,6 +74,12 @@ const Header = () => {
             </a>
           </div>
         </div>
+      </div>
+      {/* Mobile view: Image appears after "About" section */}
+      <div className="profile-img-container">
+        <img src={profileImg} alt="Profile" />
+        <div className="circle-1"></div>
+        <div className="circle-2"></div>
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ body {
   color: white;
   padding: 20px;
   margin-bottom: 10px; /* Set margin-bottom to 10px */
+  display: flex; /* Use flexbox for layout */
 }
 
 .project > h1 {
@@ -20,17 +21,13 @@ body {
   margin-bottom: 10px;
 }
 
-.project > .content {
-  display: grid; /* Use grid layout */
-  grid-template-columns: 50% 50%; /* Divide the width equally */
-  align-items: stretch; /* Stretch items to match the height of the parent container */
-}
-
 .project > #image {
   max-width: 100%;
   max-height: 1000px;
   object-fit: cover;
   border-radius: 20px;
+  width: 50%; /* Set image width to 50% */
+  margin-right: 20px; /* Add some margin between image and content */
 }
 
 .project > .para {
@@ -38,6 +35,7 @@ body {
   line-height: 1.9;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #beb6cb;
+  width: 50%; /* Set content width to 50% */
 }
 
 /* Add margin-bottom to .glitzx class */
@@ -47,7 +45,17 @@ body {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .project > .content {
-    grid-template-columns: 100%; /* Make them stack vertically in mobile view */
+  .project {
+    flex-direction: column; /* Stack items vertically in mobile view */
+  }
+
+  .project > #image {
+    width: 100%; /* Make image take full width in mobile view */
+    margin-right: 0; /* Remove margin for better spacing */
+    margin-bottom: 20px; /* Add some margin between image and content */
+  }
+
+  .project > .para {
+    width: 100%; /* Make content take full width in mobile view */
   }
 }
