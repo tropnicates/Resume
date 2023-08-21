@@ -46,12 +46,6 @@ const Navbar = () => {
         <img src={logo} alt='logo' />
       </div>
 
-      <button className={`menu-toggle ${showMenu ? 'active' : ''}`} onClick={handleMenuButtonClick}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
       <div ref={menuRef} className={`nav-links ${showMenu ? 'active' : ''}`}>
         <ul>
           <li>
@@ -69,7 +63,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1V6-ZQRjT0GEzw2VA5pgYMWLQNLcUXovD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1E-sWyFsiY8E6-1KUOtHJnoxDdgIQ__-u/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
