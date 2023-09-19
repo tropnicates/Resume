@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import logo from '../../assets/logo.png'; // Adjust the path according to the actual location
+import logo from '../../assets/logo.png'; 
 import './navbar.css';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
       event.preventDefault();
       targetSection.scrollIntoView({ behavior: 'smooth' });
       if (window.innerWidth <= 768) {
-        setShowMenu(false); // Hide the menu after clicking on a link in mobile view
+        setShowMenu(false);
       }
     }
   };
@@ -44,6 +44,12 @@ const Navbar = () => {
     <nav>
       <div className='nav-logo'>
         <img src={logo} alt='logo' />
+      </div>
+
+      <div className='menu-toggle' onClick={handleMenuButtonClick}>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
       <div ref={menuRef} className={`nav-links ${showMenu ? 'active' : ''}`}>

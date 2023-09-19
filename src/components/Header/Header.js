@@ -75,7 +75,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {/* Mobile view: Image appears after "About" section */}
       <div className="profile-img-container">
         <img src={profileImg} alt="Profile" />
         <div className="circle-1"></div>
