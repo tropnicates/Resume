@@ -1,0 +1,110 @@
+.skills-container {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-category {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skill-category:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-category i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #1abc9c; /* Icon color */
+  }
+  
+  .skill-details {
+    margin-top: 10px;
+  }
+  
+  .skill-details span {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .skill-progress {
+    background-color: #3d3d3d;
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  .skill-progress-bar {
+    height: 100%;
+    background-color: #1abc9c;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 10px;
+    color: white;
+    animation: skillProgressAnimation 2s ease-in-out;
+  }
+  .skill-progress-bar {
+    height: 100%;
+    background-color: #1abc9c;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 10px;
+    color: white;
+    animation: skillProgressAnimation 2s ease-in-out forwards; 
+  }
+  
+  @keyframes skillProgressAnimation {
+    0% {
+      width: 0%;
+    }
+  }
+  
+
+
+
+
+@media screen and (max-width: 768px) {
+    .skills-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill-category {
+      margin: 20px 0;
+      text-align: center;
+      width: 95%; 
+      max-width: 400px; 
+    }
+  
+    .skill-category i {
+      margin: 0 auto; 
+      font-size: 36px; 
+    }
+  
+    .skills-list .skill-category:nth-child(3n + 1) {
+      clear: none; 
+    }
+  }
+  

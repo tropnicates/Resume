@@ -1,4 +1,3 @@
-// Header.js
 import React from "react";
 import Typical from "react-typical";
 import profileImg from "../../assets/profileImg1.jpg";
@@ -12,7 +11,6 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="header-content">
-        {/* Content of the header goes here */}
         <h1>Hey, what's up Guys!</h1>
         <h2>
           I'm a{" "}
