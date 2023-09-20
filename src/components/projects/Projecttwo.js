@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import projectImage from "../../assets/GlitzX.jpg"; // Adjust the path according to the actual location
+import projectImage from "../../assets/GlitzX.jpg"; 
 
 const Project = ({ name, description }) => {
   return (

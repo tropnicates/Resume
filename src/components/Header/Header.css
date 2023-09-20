@@ -154,9 +154,21 @@
   box-shadow: 0 4px 30px rgba(110, 106, 106, 0.1);
   border-radius: 16px;
 }
+.show{
+  display: none;
+}
+.hate{
+  display: none;
+}
 
 
 @media screen and (max-width: 768px) {
+ .love{
+  display: none;
+ }
+ .hate{
+  display: flex;
+ }
   .profile-img-container img {
     margin-top: 10px;
   }
@@ -174,3 +186,6 @@
     align-items: center;
   }
 }
+
+
+

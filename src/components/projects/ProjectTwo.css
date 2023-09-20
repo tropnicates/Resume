@@ -12,7 +12,7 @@ body {
 .project {
   color: white;
   padding: 20px;
-  margin-bottom: 10px; /* Set margin-bottom to 10px */
+  margin-bottom: 10px; 
 }
 
 .project > h1 {
@@ -22,7 +22,7 @@ body {
 
 .project > .content {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center;
 }
 
 .project > #image {
@@ -44,7 +44,7 @@ body {
   color: #beb6cb;
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 768px) {
   .project > #image,
   .project > .para {

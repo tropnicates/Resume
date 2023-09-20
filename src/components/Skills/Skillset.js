@@ -19,7 +19,6 @@ const Skills = () => {
           </div>
         </div>
         
-        {/* JavaScript */}
         <div className="skill-category">
           <i className="fab fa-js-square"></i>
           <div className="skill-details">
@@ -32,7 +31,6 @@ const Skills = () => {
           </div>
         </div>
         
-        {/* ReactJS */}
         <div className="skill-category">
           <i className="fab fa-react"></i>
           <div className="skill-details">
@@ -45,7 +43,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* NodeJS */}
         <div className="skill-category">
           <i className="fab fa-node"></i>
           <div className="skill-details">
@@ -58,7 +55,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* ExpressJS */}
         <div className="skill-category">
           <i className="fab fa-node-js"></i>
           <div className="skill-details">
@@ -71,7 +67,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Axios */}
+       
         <div className="skill-category">
           <i className="fas fa-clipboard-check"></i>
           <div className="skill-details">
@@ -84,7 +80,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* JWT */}
+  
         <div className="skill-category">
           <i className="fas fa-key"></i>
           <div className="skill-details">
@@ -97,7 +93,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Cloudinary */}
+     
         <div className="skill-category">
           <i className="fas fa-cloud-upload-alt"></i>
           <div className="skill-details">
@@ -110,7 +106,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Multer */}
+    
         <div className="skill-category">
           <i className="fas fa-file-upload"></i>
           <div className="skill-details">
@@ -123,7 +119,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* EJS */}
+  
         <div className="skill-category">
           <i className="fas fa-file-code"></i>
           <div className="skill-details">
@@ -136,7 +132,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Git */}
+  
         <div className="skill-category">
           <i className="fab fa-git"></i>
           <div className="skill-details">
@@ -149,7 +145,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* GitHub */}
+
         <div className="skill-category">
           <i className="fab fa-github"></i>
           <div className="skill-details">
@@ -162,7 +158,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* VS Code */}
+
         <div className="skill-category">
           <i className="fas fa-laptop-code"></i>
           <div className="skill-details">
@@ -175,7 +171,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Render */}
         <div className="skill-category">
           <i className="fas fa-cloud"></i>
           <div className="skill-details">
@@ -188,7 +183,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Netlify */}
+
         <div className="skill-category">
           <i className="fas fa-cloud"></i>
           <div className="skill-details">
@@ -201,7 +196,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* MongoDB */}
         <div className="skill-category">
           <i className="fab fa-mongodb"></i>
           <div className="skill-details">
@@ -214,7 +208,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* MySQL */}
+
         <div className="skill-category">
           <i className="fas fa-database"></i>
           <div className="skill-details">
@@ -227,7 +221,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* DBMS */}
+
         <div className="skill-category">
           <i className="fas fa-server"></i>
           <div className="skill-details">
@@ -240,7 +234,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* OS */}
+
         <div className="skill-category">
           <i className="fab fa-linux"></i>
           <div className="skill-details">
@@ -253,7 +247,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* CN */}
+
         <div className="skill-category">
           <i className="fas fa-network-wired"></i>
           <div className="skill-details">
@@ -266,7 +260,7 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* OOPs */}
+  
         <div className="skill-category">
           <i className="fas fa-object-group"></i>
           <div className="skill-details">

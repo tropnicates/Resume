@@ -27,14 +27,21 @@ const Header = () => {
             wrapper="b"
           />
         </h2>
-        <p id="about-section" className="profile-pic">
+
+        <div className="profile-img-container hate">
+        <img src={profileImg} alt="Profile" />
+        <div className="circle-1"></div>
+        <div className="circle-2"></div>
+      </div>
+      
+        <p id="about-section" className="profile-pic hide">
           Myself Kundan Kumar, I belong to Nalanda, Bihar. I have done my
           schooling from Bihar. Currently, I am doing my bachelors in
           Electronics and Communication engineering from IIIT Kota, and I am
           looking for an internship as well as a full-time position in the domain of the
           software development field.
         </p>
-        <div className="header-payment-container">
+        <div className="header-payment-container hide">
           <div className="payment-icons">
             <button className="btn" onClick={hireAction}>
               Hire Me
@@ -73,11 +80,12 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="profile-img-container">
+      <div className="profile-img-container love">
         <img src={profileImg} alt="Profile" />
         <div className="circle-1"></div>
         <div className="circle-2"></div>
       </div>
+      
     </div>
   );
 };
