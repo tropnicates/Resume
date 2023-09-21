@@ -6,7 +6,6 @@ const Skills = () => {
     <div className="skills-container">
       <h2>Skills</h2>
       <div className="skills-list">
-        {/* C++ */}
         <div className="skill-category">
           <i className="fab fa-cuttlefish"></i>
           <div className="skill-details">
