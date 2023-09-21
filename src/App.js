@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Skills />
       <Projects />
-      <Projecttwo />
       <Projectthird />
+      <Projecttwo />
       <Footer /> 
     </div>
   );
