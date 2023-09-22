@@ -1,35 +1,26 @@
 import React from "react";
 import "./Project.css";
 import projectImage from "../../assets/mistore.jpg";
-
 const Project = ({ name, description }) => {
   return (
-    
-    <div className="project">
-      <div className="h1">
-      <h1>Things I have made!</h1>
-      </div>
-
+    <div className="h1">
+      <h3>Things I have made!</h3>
       <div className="h2">
-      <h2>MI STORE CLONE</h2>
+        <h4>MI STORE CLONE</h4>
+        <div className="project">
+          <img id="image" src={projectImage} alt={name} />
+          <div className="para">
+            <p>
+              Built an engaging e-commerce platform featuring efficient product
+              search, appealing cart, profile tools, and product ratings for
+              improved user experience, satisfaction, and effective product
+              discovery.
+              <h3>NodeJS, ExpressJS, MongoDB, React, JWT</h3>
+            </p>
+          </div>
+        </div>
       </div>
-
-
-      <img id="image" src={projectImage} alt={name} />
-
-      
-      <div className="para">
-      <p>
-        Created user-friendly e-commerce site with streamlined product search,
-        attractive cart, profile tools, and product ratings for enhanced user
-        satisfaction, engagement, and feedback, promoting effective product
-        discovery and exploration.
-        <h3>
-        NodeJS, ExpressJS, MongoDB, React, JWT
-        </h3>
-      </p>
-      </div>
-      </div>
+    </div>
   );
 };
 

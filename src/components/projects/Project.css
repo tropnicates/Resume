@@ -10,19 +10,23 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   align-items: center;
+  display: flex;
 }
-.project> h1{
+h3{
   text-align: center;
+  color: white;
+  font-size: 18px;
 
 }
-.project > h2 {
+h4 {
   color: rgb(194, 23, 23);
   margin-bottom: 10px;
   margin-top: 30px;
+  margin-left: 15%;
 }
 
 .project > #image {
-  margin-left: 15%;
+  margin-left: 5%;
   max-width: 45%;
   min-height: 250px;
   display: inline-block;
@@ -35,15 +39,12 @@ body {
   line-height: 1.9;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #beb6cb;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 2px;
   max-width: 45%;
   min-height: 250px;
   padding-left: 5px;
   padding-right: 5px;
-  margin-right: 15%;
-  display: inline-block;
-  vertical-align: top;
   z-index: 2;
 }
 
@@ -56,4 +57,56 @@ body {
   .project > .content {
     grid-template-columns: 100%; 
   }
+
+  .project {
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    display: flex;
+  }
+  h3{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  
+  }
+  h4 {
+    color: rgb(194, 23, 23);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 15%;
+  }
+  
+  .project > #image {
+    margin-left: -10%;
+    max-width: 45%;
+    min-height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    z-index: 1;
+  }
+  
+  .project > .para {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #beb6cb;
+    border: 2px solid white;
+    border-radius: 2px;
+    min-width: 75%;
+    max-height: 100px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    z-index: 2;
+  }
+  
+  .glitzx {
+    margin-bottom: 20px;
+  }
+  
+
+
 }

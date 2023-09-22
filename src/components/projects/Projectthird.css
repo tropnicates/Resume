@@ -12,8 +12,8 @@ body {
 .project {
   color: white;
   padding: 20px;
-  margin-bottom: 10px; /* Set margin-bottom to 10px */
-  display: flex; /* Use flexbox for layout */
+  margin-bottom: 10px;
+  display: flex; 
 }
 
 .project > h1 {
@@ -26,8 +26,8 @@ body {
   max-height: 1000px;
   object-fit: cover;
   border-radius: 20px;
-  width: 50%; /* Set image width to 50% */
-  margin-right: 20px; /* Add some margin between image and content */
+  width: 50%; 
+  margin-right: 20px;
 }
 
 .project > .para {
@@ -35,27 +35,27 @@ body {
   line-height: 1.9;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #beb6cb;
-  width: 50%; /* Set content width to 50% */
+  width: 50%; 
 }
 
-/* Add margin-bottom to .glitzx class */
+
 .glitzx {
   margin-bottom: 20px;
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 768px) {
   .project {
-    flex-direction: column; /* Stack items vertically in mobile view */
+    flex-direction: column; /* Slly in mobile view */
   }
 
   .project > #image {
-    width: 100%; /* Make image take full width in mobile view */
-    margin-right: 0; /* Remove margin for better spacing */
-    margin-bottom: 20px; /* Add some margin between image and content */
+    width: 100%;
+    margin-right: 0; 
+    margin-bottom: 20px;
   }
 
   .project > .para {
-    width: 100%; /* Make content take full width in mobile view */
+    width: 100%; 
   }
 }

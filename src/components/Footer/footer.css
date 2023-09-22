@@ -1,42 +1,39 @@
-/* footer.css */
 .footer {
-    background-color: black;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact-details {
-    margin-bottom: 10px;
-  }
-  
-  .contact-info {
-    margin: 5px 0;
-    cursor: pointer;
-  }
-  
-  .social-media {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .social-media a {
-    color: #fff;
-    font-size: 24px;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  .social-media a:hover {
-    color: #a8a8a8;
-  }
-  
-  /* Adjust the icon colors on hover to your preferred color */
-  
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-details {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #a8a8a8;
+}
+
