@@ -12,7 +12,7 @@ const Project = ({ name, description }) => {
           "GlitzX Modeling: Unleash your fashion aspirations. Connect with
           models and pros, build portfolios, train for the runway, and thrive in
           the fashion world. Join our vibrant community today!"
-          <h3>React NodeJS ExpressJS Git CSS Module</h3>
+          <h5>React NodeJS ExpressJS Git CSS Module</h5>
         </p>
       </div>
     </div>

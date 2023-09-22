@@ -15,7 +15,7 @@ const Project = ({ name, description }) => {
               search, appealing cart, profile tools, and product ratings for
               improved user experience, satisfaction, and effective product
               discovery.
-              <h3>NodeJS, ExpressJS, MongoDB, React, JWT</h3>
+              <h5>NodeJS, ExpressJS, MongoDB, React, JWT</h5>
             </p>
           </div>
         </div>

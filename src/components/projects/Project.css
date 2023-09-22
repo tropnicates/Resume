@@ -39,7 +39,7 @@ h4 {
   line-height: 1.9;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #beb6cb;
-  /* border: 2px solid white; */
+  border: 2px solid white;
   border-radius: 2px;
   max-width: 45%;
   min-height: 250px;
@@ -50,6 +50,9 @@ h4 {
 
 .glitzx {
   margin-bottom: 20px;
+}
+h5{
+  font-size: 18px;
 }
 
 
