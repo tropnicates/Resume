@@ -9,9 +9,10 @@ const Project = ({ name, description }) => {
       <div className="project" id="project-section">
         <img id="image" src={projectImage} alt={name} />
         <p className="para">
-          "GlitzX Modeling: Unleash your fashion aspirations. Connect with
-          models and pros, build portfolios, train for the runway, and thrive in
-          the fashion world. Join our vibrant community today!"
+          "Join GlitzX Modeling to pursue your fashion dreams. Connect with
+          models and professionals, develop stunning portfolios, receive runway
+          training, and excel in the fashion industry. Become part of our
+          vibrant community and embark on your fashion journey today!"
           <h5>React NodeJS ExpressJS Git CSS Module</h5>
         </p>
       </div>

@@ -1,20 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Project.css";
 import projectImage from "../../assets/mistore.jpg";
+
 const Project = ({ name, description }) => {
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleExpansion = () => {
+    setExpanded(!expanded);
+  };
+
   return (
     <div className="h1">
       <h3>Things I have made!</h3>
       <div className="h2">
         <h4>MI STORE CLONE</h4>
-        <div className="project">
-          <img id="image" src={projectImage} alt={name} />
+        <div className={`project ${expanded ? "expanded" : ""}`}>
+          <img
+            id="image"
+            src={projectImage}
+            alt={name}
+            onClick={toggleExpansion}
+          />
           <div className="para">
             <p>
-              Built an engaging e-commerce platform featuring efficient product
-              search, appealing cart, profile tools, and product ratings for
-              improved user experience, satisfaction, and effective product
-              discovery.
+              Created an engaging e-commerce platform with streamlined
+              product search, an attractive shopping cart, profile customization
+              tools, and product ratings. These enhancements enhance user
+              experience, satisfaction, and effective product discovery,
+              providing a seamless and enjoyable online shopping experience.
               <h5>NodeJS, ExpressJS, MongoDB, React, JWT</h5>
             </p>
           </div>
