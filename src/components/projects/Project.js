@@ -23,12 +23,15 @@ const Project = ({ name, description }) => {
           />
           <div className="para">
             <p>
-              Created an engaging e-commerce platform with streamlined
-              product search, an attractive shopping cart, profile customization
-              tools, and product ratings. These enhancements enhance user
-              experience, satisfaction, and effective product discovery,
-              providing a seamless and enjoyable online shopping experience.
-              <h5>NodeJS, ExpressJS, MongoDB, React, JWT</h5>
+              Created an engaging e-commerce platform with streamlined product
+              search, an attractive shopping cart, profile customization tools,
+              and product ratings. These enhancements enhance user experience,
+              satisfaction, and effective product discovery, providing a
+              seamless and enjoyable online shopping experience.
+              <h5>
+                React, NodeJS, ExpressJS, MongoDB, Material UI, Rest API, Git,
+                CSS Module, JWT.
+              </h5>
             </p>
           </div>
         </div>

@@ -13,7 +13,10 @@ const Project = ({ name, description }) => {
           models and professionals, develop stunning portfolios, receive runway
           training, and excel in the fashion industry. Become part of our
           vibrant community and embark on your fashion journey today!"
-          <h5>React NodeJS ExpressJS Git CSS Module</h5>
+          <h5>
+            React, NodeJS, ExpressJS, MongoDB, Material UI, Rest API, Git, CSS
+            Module, JWT.
+          </h5>
         </p>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Project = ({ name, description }) => {
           responsive design, categories, profiles, sharing, and search. Our
           commitment to security ensures a safe environment. Connect and explore
           with us today." 
-          <h5>Bcrypt NodeJS ExpressJS Cloudinary</h5>
+          <h5>Bcrypt NodeJS ExpressJS Connect-mongo EJS Git CSS Multer Cloudinary Express-session</h5>
         </p>
       </div>
     </div>

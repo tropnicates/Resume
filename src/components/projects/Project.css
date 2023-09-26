@@ -100,6 +100,9 @@ h5 {
     vertical-align: top;
     z-index: 1;
   }
+  #image :hover{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
 
   .para {
     font-size: 1.2rem;
@@ -113,6 +116,7 @@ h5 {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: -15%;
+    padding-top: 10px;
     z-index: 1;
   }
 
