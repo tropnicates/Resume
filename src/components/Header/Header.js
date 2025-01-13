@@ -36,8 +36,8 @@ const Header = () => {
       
         <p id="about-section" className="profile-pic hide">
           Myself Kundan Kumar, I belong to New Delhi, India. I have done my
-          schooling from Bihar. Currently, I am doing my bachelors in
-          Electronics and Communication engineering from IIIT Kota, and I am
+          schooling from Bihar and completed my bachelors in
+          Electronics and Communication engineering from IIIT Kota in 2024, and I am
           looking for an internship as well as a full-time position in the domain of the
           software development field.
         </p>
