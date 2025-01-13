@@ -1,23 +1,25 @@
 import React from "react";
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/projects/Project";
 import Skills from "./components/Skills/Skillset";
-import Projecttwo from "./components/projects/Projecttwo";
-import Projectthird from "./components/projects/Projectthird";
 import Footer from "./components/Footer/Footer";
+import Hobbies from "./components/Hobby/hobbies";
+// import AllPoetries from './components/Hobby/allProperties';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Skills />
-      <Projects />
-      <Projectthird />
-      <Projecttwo />
-      <Footer /> 
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Header />
+        <Projects />
+        <Skills />
+        <Hobbies />
+        <Footer /> 
+      </div>
+    </Router>
   );
 }
 

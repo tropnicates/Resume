@@ -17,6 +17,7 @@ nav {
 
 .nav-links {
   display: flex;
+  
 }
 
 ul {
@@ -31,13 +32,15 @@ li {
 }
 
 a {
-  color: white;
   text-decoration: none;
   transition: color 0.3s;
+  color: #cccad0;
+
 }
 
 a:hover {
-  color: #ef3f3f;
+  color: #e0d9ea;
+  ;
 }
 
 @media screen and (max-width: 768px) {

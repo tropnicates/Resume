@@ -1,0 +1,28 @@
+{
+  "technicalSkills": [
+    { "name": "C++", "icon": "fab fa-cuttlefish", "level": "80%" },
+    { "name": "JavaScript", "icon": "fab fa-js-square", "level": "85%" },
+    { "name": "ReactJS", "icon": "fab fa-react", "level": "90%" },
+    { "name": "NodeJS", "icon": "fab fa-node", "level": "85%" },
+    { "name": "ExpressJS", "icon": "fab fa-node-js", "level": "80%" },
+    { "name": "Axios", "icon": "fas fa-clipboard-check", "level": "75%" },
+    { "name": "JWT", "icon": "fas fa-key", "level": "70%" },
+    { "name": "Cloudinary", "icon": "fas fa-cloud-upload-alt", "level": "75%" },
+    { "name": "Multer", "icon": "fas fa-file-upload", "level": "70%" },
+    { "name": "EJS", "icon": "fas fa-file-code", "level": "75%" },
+    { "name": "Git", "icon": "fab fa-git", "level": "85%" },
+    { "name": "GitHub", "icon": "fab fa-github", "level": "85%" },
+    { "name": "VS Code", "icon": "fas fa-laptop-code", "level": "90%" },
+    { "name": "Render", "icon": "fas fa-cloud", "level": "75%" },
+    { "name": "Netlify", "icon": "fas fa-cloud", "level": "80%" },
+    { "name": "MongoDB", "icon": "fab fa-database", "level": "80%" },
+    { "name": "MySQL", "icon": "fas fa-database", "level": "80%" },
+    { "name": "DBMS", "icon": "fas fa-server", "level": "75%" },
+    { "name": "OS", "icon": "fab fa-linux", "level": "80%" },
+    { "name": "CN", "icon": "fas fa-network-wired", "level": "70%" },
+    { "name": "OOPs", "icon": "fas fa-object-group", "level": "75%" },
+    { "name": "Python", "icon": "fab fa-python", "level": "85%" },
+    { "name": "Problem Solving", "icon": "fas fa-lightbulb", "level": "90%" },
+    { "name": "Data Analysis", "icon": "fas fa-chart-line", "level": "80%" }
+  ]
+}

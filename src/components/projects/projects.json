@@ -1,0 +1,26 @@
+{
+    "projects": [
+      {
+        "name": "GlitzX (Modeling Website)",
+        "description": "Join GlitzX Modeling to pursue your fashion dreams. Connect with models and professionals, develop stunning portfolios, receive runway training, and excel in the fashion industry. Become part of our vibrant community and embark on your fashion journey today!",
+        "technologies": "React, NodeJS, ExpressJS, MongoDB, Material UI, Rest API, Git, CSS Module, JWT",
+        "image": "/assets/glitzx.jpg",
+        "link": "https://radiant-pie-654a4f.netlify.app/"  
+      },
+      {
+        "name": "TranquilTales (Blog Website)",
+        "description": "Discover our Fullstack Blog for diverse content and a user-friendly experience. Enjoy features like authentication, posts, comments, responsive design, categories, profiles, sharing, and search. Our commitment to security ensures a safe environment. Connect and explore with us today.",
+        "technologies": "Bcrypt, NodeJS, ExpressJS, Connect-mongo, EJS, Git, CSS, Multer, Cloudinary, Express-session",
+        "image": "/assets/glitzx.jpg",
+        "link": "https://tranquiltalesfnnjkdn.onrender.com/"  
+      },
+      {
+        "name": "MI STORE CLONE",
+        "description": "Created an engaging e-commerce platform with streamlined product search, an attractive shopping cart, profile customization tools, and product ratings. These enhancements enhance user experience, satisfaction, and effective product discovery, providing a seamless and enjoyable online shopping experience.",
+        "technologies": "React, NodeJS, ExpressJS, MongoDB, Material UI, Rest API, Git, CSS Module, JWT",
+        "image": "/assets/mistore.jpg",
+        "link": "https://mi-store-clone.onrender.com" 
+      }
+    ]
+  }
+  

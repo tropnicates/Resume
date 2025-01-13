@@ -1,0 +1,80 @@
+  .hobbies-container {
+    padding: 20px;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .hobbies-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .poetries-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+    margin: 20 auto;
+    max-width: 1200px;
+  }
+  
+  .poetry-card {
+    border: 2px solid #1abc9c; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+  }
+  
+  .poetry-index {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .poetry-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #beb6cb;
+    text-align: justify;
+  }
+  .read-more{
+    display: inline-block;
+    border-radius: 1rem;
+    background-color: #1abc9c;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .hobbies-title {
+      font-size: 2rem;
+    }
+  
+    .poetry-card {
+      padding: 15px;
+    }
+
+    .poetry-text {
+      font-size: 1rem;
+    }
+  }
+  

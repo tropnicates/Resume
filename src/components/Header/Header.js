@@ -35,7 +35,7 @@ const Header = () => {
       </div>
       
         <p id="about-section" className="profile-pic hide">
-          Myself Kundan Kumar, I belong to Nalanda, Bihar. I have done my
+          Myself Kundan Kumar, I belong to New Delhi, India. I have done my
           schooling from Bihar. Currently, I am doing my bachelors in
           Electronics and Communication engineering from IIIT Kota, and I am
           looking for an internship as well as a full-time position in the domain of the
@@ -46,37 +46,6 @@ const Header = () => {
             <button className="btn" onClick={hireAction}>
               Hire Me
             </button>
-            <a
-              href="https://www.paypal.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-paypal"></i>
-            </a>
-            <a
-              href="https://www.visa.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-cc-visa"></i>
-            </a>
-            <a
-              href="https://www.mastercard.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-cc-mastercard"></i>
-            </a>
-            <a
-              href="https://www.americanexpress.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-cc-amex"></i>
-            </a>
-            <a href="https://www.upi.com/" target="_blank" rel="noopener noreferrer">
-              <i className="payment payment_upi"></i>
-            </a>
           </div>
         </div>
       </div>
