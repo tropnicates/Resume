@@ -15,7 +15,12 @@ const Hobbies = () => {
   };
 
   return (
-    <div className="hobbies-container">
+    <div
+      className={`hobbies-container ${
+        showAllPoetries ? 'show-all' : 'hide-all'
+      }`}
+    >
+      <div className="hob">Hobbies</div>
       <div className="hobbies-title">Poetry Writing</div>
       {showAllPoetries && (
         <div className="poetries-list">
@@ -28,7 +33,7 @@ const Hobbies = () => {
         </div>
       )}
       <button className="read-more" onClick={toggleShowAll}>
-        {showAllPoetries ? "Show Less" : "Want to read poetry?"}
+        {showAllPoetries ? 'Show Less' : 'Want to read Poetry?'}
       </button>
     </div>
   );

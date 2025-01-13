@@ -6,7 +6,6 @@ import Projects from "./components/projects/Project";
 import Skills from "./components/Skills/Skillset";
 import Footer from "./components/Footer/Footer";
 import Hobbies from "./components/Hobby/hobbies";
-// import AllPoetries from './components/Hobby/allProperties';
 
 function App() {
   return (

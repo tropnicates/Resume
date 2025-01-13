@@ -26,7 +26,6 @@ const Skills = () => {
       </div>
 
       <div className="skills-container">
-        <div className="skills">Hobbies</div>
       </div>
     </div>
   );

@@ -2,7 +2,10 @@
     padding: 20px;
     color: #333;
     text-align: center;
-    min-height: 100vh;
+    /* margin-bottom: 20px; */
+  }
+  .hobbies-container.hide-all{
+    margin-bottom: 0;
   }
   
   .hobbies-title {
@@ -10,6 +13,10 @@
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 20px;
+  }
+  .hob {
+    font-size: 4rem;
+    color: #5f5d5d;
   }
   
   .poetries-list {
@@ -33,14 +40,12 @@
     align-items: center;
     justify-content: center;
     transition: transform 0.3s, box-shadow 0.3s;
-    margin-bottom: 2rem;
   }
   
   .poetry-index {
     font-size: 1.2rem;
     font-weight: bold;
     color: #3498db;
-    margin-bottom: 10px;
   }
   
   .poetry-text {
@@ -61,6 +66,7 @@
     font-weight: bold;
     color: #2c3e50;
     margin-top: 20px;
+    margin-bottom: 0;
     cursor: pointer;
   }
   
