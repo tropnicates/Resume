@@ -1,16 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+
+:root {
+  --ink: #080a12;
+  --ink-2: #10131f;
+  --paper: #f4f6fb;
+  --muted: #9da6ba;
+  --violet: #7c5cff;
+  --cyan: #55d9e8;
+  --pink: #ff79bd;
+  --line: rgba(255, 255, 255, 0.09);
+}
+
 * {
-
-
   margin: 0;
-  padding: 0%;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  background-color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #beb6cb;  color: #333;
-  font-size: 1.2rem;
-  line-height: 1.5;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(124, 92, 255, 0.09), transparent 22rem),
+    radial-gradient(circle at 88% 28%, rgba(85, 217, 232, 0.07), transparent 24rem),
+    var(--ink);
+  color: var(--paper);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+button {
+  border: 0;
+}
+
+::selection {
+  background: var(--violet);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ink);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--violet), var(--cyan));
+  border-radius: 99px;
 }

@@ -41,9 +41,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className="top-nav">
       <div className='nav-logo'>
-        <img src={logo} alt='logo' />
+        <img src={logo} alt='Kundan Kumar' />
+        <span>Kundan<span>.</span></span>
       </div>
 
       <div className='menu-toggle' onClick={handleMenuButtonClick}>

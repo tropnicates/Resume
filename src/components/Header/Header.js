@@ -1,61 +1,49 @@
-import React from "react";
-import Typical from "react-typical";
+import React, { useEffect, useState } from "react";
 import profileImg from "../../assets/profileImg1.jpg";
 import "./Header.css";
 
 const Header = () => {
-  const hireAction = () => {
-    alert("Want to Hire Me? Contact Please!");
-  };
+  const roles = ["Full Stack Developer", "Frontend Developer", "Backend Developer"];
+  const [roleIndex, setRoleIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setRoleIndex((current) => (current + 1) % roles.length);
+    }, 2200);
+    return () => window.clearInterval(timer);
+  }, [roles.length]);
 
   return (
-    <div className="header-container">
+    <header className="header-container" id="home">
+      <div className="hero-glow"></div>
       <div className="header-content">
-        <h1>Hey, what's up Guys!</h1>
+        <div className="availability"><span></span> Available for opportunities</div>
+        <p className="hero-kicker">Hello, I'm Kundan Kumar</p>
+        <h1>Building digital products that <em>feel different.</em></h1>
         <h2>
-          I'm a{" "}
-          <Typical
-            steps={[
-              "Full Stack Developer",
-              1000,
-              "Frontend Developer",
-              1000,
-              "Backend Developer",
-              1000,
-            ]}
-            loop={Infinity}
-            wrapper="b"
-          />
+          {" "}
+          <b key={roleIndex}>{roles[roleIndex]}</b>
         </h2>
 
-        <div className="profile-img-container hate">
-        <img src={profileImg} alt="Profile" />
-        <div className="circle-1"></div>
-        <div className="circle-2"></div>
-      </div>
-      
-        <p id="about-section" className="profile-pic hide">
+        <p id="about-section" className="profile-pic">
           Myself Kundan Kumar, I belong to New Delhi, India. I have done my
           schooling from Bihar and completed my bachelors in
           Electronics and Communication engineering from IIIT Kota in 2024, and I am
           looking for an internship as well as a full-time position in the domain of the
           software development field.
         </p>
-        <div className="header-payment-container hide">
-          <div className="payment-icons">
-            <button className="btn" onClick={hireAction}>
-              Hire Me
-            </button>
-          </div>
+        <div className="header-actions">
+          <a className="btn btn-primary" href="#project-section">Explore my work <span>↓</span></a>
+          <a className="btn btn-secondary" href="mailto:kun9577@gmail.com">Let's talk</a>
         </div>
       </div>
-      <div className="profile-img-container love">
-        <img src={profileImg} alt="Profile" />
-        <div className="circle-1"></div>
-        <div className="circle-2"></div>
+      <div className="profile-img-container">
+        <div className="portrait-ring"></div>
+        <img src={profileImg} alt="Kundan Kumar" />
+        <div className="floating-chip chip-one">React</div>
+        <div className="floating-chip chip-two">Node.js</div>
       </div>
-      
-    </div>
+    </header>
   );
 };
 

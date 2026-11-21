@@ -16,7 +16,7 @@ const Hobbies = () => {
 
   return (
     <div
-      className={`hobbies-container ${
+      className={`hobbies-container reveal ${
         showAllPoetries ? 'show-all' : 'hide-all'
       }`}
     >

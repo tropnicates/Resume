@@ -4,8 +4,11 @@ import skillsData from './skills.json';
 
 const Skills = () => {
   return (
-    <div className="skills-container">
-      <div className="skills">Technical Skills</div>
+    <div className="skills-container reveal">
+      <div className="section-heading">
+        <p>Capabilities</p>
+        <h2>Technical <em>skills</em></h2>
+      </div>
       <div className="skills-list">
         {skillsData.technicalSkills.map((skill, index) => (
           <div className="skill-category" key={index}>
