@@ -1,12 +1,15 @@
 import React from "react";
 import "./Project.css";
 import projectsData from "./projects.json";
+import glitzXImage from "../../assets/GlitzX.jpg";
+import tranquilTalesImage from "../../assets/blog .jpg";
+import miStoreImage from "../../assets/mistore.jpg";
 
 const Projects = () => {
   const imageMap = {
-    "GlitzX (Modeling Website)": "/assets/GlitzX.jpg",
-    "TranquilTales (Blog Website)": "/assets/blog%20.jpg",
-    "MI STORE CLONE": "/assets/mistore.jpg",
+    "GlitzX (Modeling Website)": glitzXImage,
+    "TranquilTales (Blog Website)": tranquilTalesImage,
+    "MI STORE CLONE": miStoreImage,
   };
 
   return (
